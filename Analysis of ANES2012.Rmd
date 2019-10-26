@@ -1,0 +1,28 @@
+---
+title: "Analysis of ANES2012"
+author: "Ruben Rodriguez"
+date: "10/26/2019"
+output: html_document
+---
+#(SETUP)
+```{r SETUP, include=FALSE}
+library("fBasics")
+library("tidyverse")
+library("psych")
+library("lavaan")
+library("semPlot")
+library("gridExtra")
+library("grid")
+library("lattice")
+library("xlsx")
+library("readstata13")
+library("ggpubr")
+
+set.seed(1234)
+```
+
+#DATA
+```{r}
+ANES12 <- 
+```
+
